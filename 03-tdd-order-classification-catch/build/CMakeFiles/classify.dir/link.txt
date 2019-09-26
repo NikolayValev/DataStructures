@@ -1,0 +1,2 @@
+/usr/bin/ar qc libclassify.a  CMakeFiles/classify.dir/includes/classify.cpp.o
+/usr/bin/ranlib libclassify.a

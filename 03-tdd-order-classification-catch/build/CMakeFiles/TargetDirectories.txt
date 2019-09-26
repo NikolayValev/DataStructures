@@ -1,0 +1,6 @@
+/mnt/d/Uni/DataStructures/cmps231/code/03-tdd-order-classification-catch/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Uni/DataStructures/cmps231/code/03-tdd-order-classification-catch/build/CMakeFiles/test.dir
+/mnt/d/Uni/DataStructures/cmps231/code/03-tdd-order-classification-catch/build/CMakeFiles/testing.dir
+/mnt/d/Uni/DataStructures/cmps231/code/03-tdd-order-classification-catch/build/CMakeFiles/edit_cache.dir
+/mnt/d/Uni/DataStructures/cmps231/code/03-tdd-order-classification-catch/build/CMakeFiles/classify.dir
+/mnt/d/Uni/DataStructures/cmps231/code/03-tdd-order-classification-catch/build/CMakeFiles/classify-ui.dir

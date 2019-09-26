@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././includes/classify.h
+
+/mnt/d/Uni/DataStructures/cmps231/code/03-tdd-order-classification-catch/main.cpp
+iostream
+-
+classify.h
+/mnt/d/Uni/DataStructures/cmps231/code/03-tdd-order-classification-catch/classify.h
+

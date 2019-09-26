@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/classify-ui.dir/main.cpp.o  -o classify-ui libclassify.a 
