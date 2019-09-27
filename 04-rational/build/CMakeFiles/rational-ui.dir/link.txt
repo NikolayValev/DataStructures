@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/rational-ui.dir/main.cpp.o  -o rational-ui librational.a 

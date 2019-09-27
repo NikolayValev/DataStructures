@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/d/Uni/DataStructures/cmps231/code/04-rational/includes/rational.cpp
+rational.h
+/mnt/d/Uni/DataStructures/cmps231/code/04-rational/includes/rational.h
+stdexcept
+-
+
+/mnt/d/Uni/DataStructures/cmps231/code/04-rational/includes/rational.h
+
