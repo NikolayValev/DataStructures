@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/array-ui.dir/main.cpp.o  -o array-ui libarray.a 

@@ -1,0 +1,6 @@
+/mnt/d/Uni/DataStructures/cmps231/code/array-ops/build/CMakeFiles/rebuild_cache.dir
+/mnt/d/Uni/DataStructures/cmps231/code/array-ops/build/CMakeFiles/edit_cache.dir
+/mnt/d/Uni/DataStructures/cmps231/code/array-ops/build/CMakeFiles/test.dir
+/mnt/d/Uni/DataStructures/cmps231/code/array-ops/build/CMakeFiles/testing.dir
+/mnt/d/Uni/DataStructures/cmps231/code/array-ops/build/CMakeFiles/array.dir
+/mnt/d/Uni/DataStructures/cmps231/code/array-ops/build/CMakeFiles/array-ui.dir

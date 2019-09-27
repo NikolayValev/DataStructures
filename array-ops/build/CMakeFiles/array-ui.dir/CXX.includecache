@@ -1,0 +1,14 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././includes/array.h
+
+/mnt/d/Uni/DataStructures/cmps231/code/array-ops/main.cpp
+array.h
+/mnt/d/Uni/DataStructures/cmps231/code/array-ops/array.h
+
