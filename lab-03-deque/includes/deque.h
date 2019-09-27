@@ -1,0 +1,21 @@
+class Deque {
+public:
+  Deque();
+  void push_back(int value);
+  void push_front(int value);
+  int pop_back();
+  int pop_front();
+  bool is_full() const;
+  bool is_empty() const;
+
+  // Make sure you reference this const whenever dealing with capacity, so you
+  // can change the capacity of the Deque by altering just this line of code.
+  static const int CAPACITY = 100;
+
+private:
+  int arr[CAPACITY];
+  int front; // Where the first element is now.
+  int back;  // Where the next element will be placed.
+  int count;
+  // add any private members you think are necessary.
+};
