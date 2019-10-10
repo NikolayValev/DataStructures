@@ -9,8 +9,10 @@ int main() {
   getline(cin, first);
   cout << "Second:" << endl;
   getline(cin, second);
-  mirror(first, second);
-  // Ask the user for two strings, and then call
-  // mirror.  Tell the users whether or not the
-  // two strings are mirrors of eachother.
+  if (mirror(first, second)) {
+    cout << "The two strings are \"mirrors\"" << endl;
+  } else {
+    cout << "Not mirrors" << endl;
+  }
+  return 0;
 }
