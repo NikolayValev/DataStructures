@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././includes/linked-list.h
+iostream
+-
+stack
+-
+stdexcept
+-
+
+/mnt/d/Uni/Github/DataStructures/hw-02/main.cpp
+linked-list.h
+/mnt/d/Uni/Github/DataStructures/hw-02/linked-list.h
+iostream
+-
+

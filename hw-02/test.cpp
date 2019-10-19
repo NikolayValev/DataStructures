@@ -2,6 +2,33 @@
 
 #include "catch.hpp"
 #include "linked-list.h"
+// Custom test case to check when the array has an odd length
+TEST_CASE("Test Case Custom", "Split/Switch Odd") {
+  List<int> list;
+  for (int i = 0; i < 21; i++) {
+    list.push_back(i);
+  }
+
+  REQUIRE(list.size() == 21);
+  REQUIRE(list.back() == 20);
+  REQUIRE(list.front() == 0);
+
+  list.SplitAndSwitch();
+  REQUIRE(list.size() == 21);
+  REQUIRE(list.back() == 10);
+  REQUIRE(list.front() == 11);
+
+  int expected[] = {11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 0,
+                    1,  2,  3,  4,  5,  6,  7,  8,  9,  10};
+
+  auto it = list.begin();
+  for (int i = 0; i < 21; i++) {
+    REQUIRE(it.data() == expected[i]);
+    it.forward();
+  }
+  // Ensure things really a set up correctly after split/switch
+  list.clear();
+}
 
 TEST_CASE("Test Case 1", "Split/Switch") {
   List<int> list;
