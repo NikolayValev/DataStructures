@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+.././includes/hash.h
+vector
+-
+
+/mnt/d/Uni/Github/DataStructures/Lab5/main.cpp
+hash.h
+/mnt/d/Uni/Github/DataStructures/Lab5/hash.h
+iostream
+-
+
